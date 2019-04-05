@@ -15,7 +15,7 @@ function bbpFormula(digit) {
         ((1 / (16^i)) * ((4 / ((8 * i) + 1)) - (2 / ((8 * i) + 4)) - (1 / ((8 * i) + 5)) - (1 / ((8 * i) + 6))))
     })
     
-    Console.log(pi)
+    alert(pi)
 }
 
 bbpFormula(100)
