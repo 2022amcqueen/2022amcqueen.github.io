@@ -7,7 +7,7 @@ function summation(start, stop, f) {
         x += y
     }
     
-    return y
+    return x
 }
 
 function bbpFormula(digit) {
