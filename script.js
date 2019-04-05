@@ -12,7 +12,7 @@ function summation(start, stop, f) {
 
 function bbpFormula(digit) {
     let pi = summation(0, digit, function(i) {
-        ((1 / (16^i)) * ((4 / ((8 * i) + 1)) - (2 / ((8 * i) + 4)) - (1 / ((8 * i) + 5)) - (1 / ((8 * i) + 6)))); 
+        return ((1 / (16^i)) * ((4 / ((8 * i) + 1)) - (2 / ((8 * i) + 4)) - (1 / ((8 * i) + 5)) - (1 / ((8 * i) + 6)))); 
     }); 
     
     alert(pi); 
